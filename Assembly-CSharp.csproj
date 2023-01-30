@@ -41,7 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\ParticleSystem\ForceParticlePosition.cs" />
+     <Compile Include="Assets\ParticleSystem\ClampParticleVelocity.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\ParticleSystem\CharacterMovement.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Unity\2021.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
