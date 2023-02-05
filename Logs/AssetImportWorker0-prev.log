@@ -15,7 +15,7 @@ D:/Unity/Shaders2023
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52138
+57756
 Successfully changed project path to: D:/Unity/Shaders2023
 D:/Unity/Shaders2023
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/Unity/Shaders2023
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 99.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,95 +63,95 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002864 seconds.
+Registered in 0.003042 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 98.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
+- Completed reload, in  0.683 seconds
 Domain Reload Profiling:
-	ReloadAssembly (704ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (684ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (508ms)
-			LoadAssemblies (89ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (121ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (311ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (296ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (57ms)
+				InitializePlatformSupportModulesInManaged (54ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (98ms)
+				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008962 seconds.
+Registered in 0.007427 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Shaders2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity\Shaders2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 113.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 140.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.486 seconds
+- Completed reload, in  1.613 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1487ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (1614ms)
+		BeginReloadAssembly (250ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (129ms)
-		EndReloadAssembly (1115ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1253ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (292ms)
+			SetupTypeCache (305ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (611ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (707ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (113ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (323ms)
+				ProcessInitializeOnLoadMethodAttributes (109ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5035 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (0.7 MB). Loaded Objects now: 5490.
-Memory consumption went from 209.1 MB to 208.4 MB.
-Total: 6.682200 ms (FindLiveObjects: 0.572500 ms CreateObjectMapping: 0.511100 ms MarkObjects: 5.166000 ms  DeleteObjects: 0.430700 ms)
+Unloading 5049 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 5522.
+Memory consumption went from 229.3 MB to 228.6 MB.
+Total: 5.260100 ms (FindLiveObjects: 0.438300 ms CreateObjectMapping: 0.471500 ms MarkObjects: 3.990200 ms  DeleteObjects: 0.359000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,247 +165,265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 964022.673977 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio3
+  Time since last request: 250370.428424 seconds.
+  path: Assets/01-Scenes/Shaders.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Scenes/Shaders.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac286b2783f95a43c0b9511216d8e15') in 0.014022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.664635 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio6/VDisplacement.shadergraph
+  artifactKey: Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio6/VDisplacement.shadergraph using Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4377db05c73a5004e1aaec0ef800c2a') in 0.053095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.344964 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio9/Grass.shadergraph
+  artifactKey: Guid(07341dbde8210db4692f31b5deb15446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio9/Grass.shadergraph using Guid(07341dbde8210db4692f31b5deb15446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e7a31af806f5518914d9a4db32ce3c') in 0.006890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.634315 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7/VDisplacement.shadergraph
+  artifactKey: Guid(c766dd3d9dae04c4cae2b504a8540584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7/VDisplacement.shadergraph using Guid(c766dd3d9dae04c4cae2b504a8540584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a16e6476f6975c4b5a011a39dea2b44') in 0.058637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.919812 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7/VDisplacement.shadergraph
+  artifactKey: Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7/VDisplacement.shadergraph using Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98213c40e6b38a35c974f51b67501997') in 0.003131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.447414 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7/VDisplacementInARange.shadergraph
+  artifactKey: Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7/VDisplacementInARange.shadergraph using Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b04167365c734130ee8f4c918e4604') in 0.076520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.599555 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio8/VDisplacement.shadergraph
+  artifactKey: Guid(5599fc98c801e614993137d8ad894bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio8/VDisplacement.shadergraph using Guid(5599fc98c801e614993137d8ad894bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9bfb2702bb9bd26cb2327c0009301c') in 0.003328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.640149 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio8/VDisplacementInARangeSmooth.shadergraph
+  artifactKey: Guid(5599fc98c801e614993137d8ad894bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio8/VDisplacementInARangeSmooth.shadergraph using Guid(5599fc98c801e614993137d8ad894bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2e55f8fbeb7a4c28cc0d9ee4411df7') in 0.017420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.625833 seconds.
+  path: Assets/01-Scenes/ShaderGianni.unity
+  artifactKey: Guid(eb95491d944f98742b1a7860f1a229c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01-Scenes/ShaderGianni.unity using Guid(eb95491d944f98742b1a7860f1a229c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ad1858a757942ba946fed3b9a24664') in 0.012087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.450794 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph
+  artifactKey: Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph using Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773b17c6dd73c68ed971edce2b601b2') in 0.006576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.466546 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph
+  artifactKey: Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph using Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a436b5528d80e6aca26f6cefa5109bab') in 0.004463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.857180 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph
+  artifactKey: Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph using Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e504eb1de0fd5af4039ee30f9bbf7ed4') in 0.003280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 464.694058 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth.shadergraph
+  artifactKey: Guid(5609721a8b7646643bb01fc842c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth.shadergraph using Guid(5609721a8b7646643bb01fc842c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942419e15898450f6a280ce349f7bd11') in 0.046311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.654204 seconds.
+  path: Assets/ShaderGianni/Shader/CutFresnel.shadergraph
+  artifactKey: Guid(c6cd1dac017eb8a4fa9408177f373498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShaderGianni/Shader/CutFresnel.shadergraph using Guid(c6cd1dac017eb8a4fa9408177f373498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95299ac4f364f649ea141bc68f964cf1') in 0.005363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.507610 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel.shadergraph
+  artifactKey: Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel.shadergraph using Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3385458747b70fd048d7694e9b4ab033') in 0.002257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.049665 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph
+  artifactKey: Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnel 1.shadergraph using Guid(d1beba2ecea6ae9448ada867f5abff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ade61a7cf48f9348aff58250532c9f') in 0.003636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.583034 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth1.shadergraph
+  artifactKey: Guid(99bfacc88625acd48ae7cc1774a63888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth1.shadergraph using Guid(99bfacc88625acd48ae7cc1774a63888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b2345c18a5f40042d1b910b00523fc') in 0.006594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.065697 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth1.shadergraph
+  artifactKey: Guid(99bfacc88625acd48ae7cc1774a63888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth1.shadergraph using Guid(99bfacc88625acd48ae7cc1774a63888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7925b3ce242baaed9ab2459ed1d7c15') in 0.004000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.651593 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth1.shadergraph
+  artifactKey: Guid(99bfacc88625acd48ae7cc1774a63888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio5/CutFresnelSmooth1.shadergraph using Guid(99bfacc88625acd48ae7cc1774a63888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c32381d5d5ee32cfca8687723ccec9') in 0.003916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1736.183191 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio6/VDisp.shadergraph
+  artifactKey: Guid(d7c2e1ed5f9320c4891a91d5e5deb1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio6/VDisp.shadergraph using Guid(d7c2e1ed5f9320c4891a91d5e5deb1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ea9b30b815e4b03c09e2c13b3e4b17') in 0.007374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.349890 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio6/VDisp.shadergraph
+  artifactKey: Guid(d7c2e1ed5f9320c4891a91d5e5deb1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio6/VDisp.shadergraph using Guid(d7c2e1ed5f9320c4891a91d5e5deb1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3309e0a5c4fa7a169c26579d84917a9d') in 0.003271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.148209 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio6/VDisp.shadergraph
+  artifactKey: Guid(d7c2e1ed5f9320c4891a91d5e5deb1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio6/VDisp.shadergraph using Guid(d7c2e1ed5f9320c4891a91d5e5deb1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb860ecf992b697a1b7a5d391e73bdd4') in 0.004251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 645.309697 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio1-UnlitTexture
+  artifactKey: Guid(a72b1696777aae84c89844f8b3b89dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio1-UnlitTexture using Guid(a72b1696777aae84c89844f8b3b89dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1724b50ef5cae2a599574fdc9185630') in 0.005470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.799970 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio2-Position
+  artifactKey: Guid(a7d691305e194ba4383548dffd5560ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio2-Position using Guid(a7d691305e194ba4383548dffd5560ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7072f708e20fe74f8c72243f62be40b9') in 0.005703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.474818 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio3_ColorTilingOffset
   artifactKey: Guid(aeb141bdf2813234b9f9773c4d64560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio3 using Guid(aeb141bdf2813234b9f9773c4d64560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549f6b6add7f60b9f2eba0847b573169') in 0.019147 seconds 
+Start importing Assets/EserciziDaSoloShaders/Esercizio3_ColorTilingOffset using Guid(aeb141bdf2813234b9f9773c4d64560a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf0d38497632d7b35747fa203b3f17') in 0.005773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.643502 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.shadergraph
-  artifactKey: Guid(53474c045fc6a974d8374302eaafc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.shadergraph using Guid(53474c045fc6a974d8374302eaafc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6c52995a80385fb7d029bf24bd98c3') in 0.048500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 168.534108 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.shadergraph
-  artifactKey: Guid(53474c045fc6a974d8374302eaafc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.shadergraph using Guid(53474c045fc6a974d8374302eaafc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0521f84a8447c401755be11006eec0f9') in 0.004868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.174025 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.shadergraph
-  artifactKey: Guid(53474c045fc6a974d8374302eaafc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.shadergraph using Guid(53474c045fc6a974d8374302eaafc1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7c79abe54bede5485a1444cdf65255') in 0.015213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 88.443269 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4
+  Time since last request: 8.259033 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio4_Fresnel
   artifactKey: Guid(4519c19c22130874facbe823b8683d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4 using Guid(4519c19c22130874facbe823b8683d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87ca946d725a5ee4a01f0f2e61c0eb8') in 0.005663 seconds 
+Start importing Assets/EserciziDaSoloShaders/Esercizio4_Fresnel using Guid(4519c19c22130874facbe823b8683d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b068a40e31fe56475753d2a12c548f85') in 0.007276 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.371238 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph
-  artifactKey: Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph using Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e99ffa46cadbfdd5db2b85284864da3') in 0.035502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 114.853242 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph
-  artifactKey: Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph using Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8591a971f4d12c34bc7df5f4f46284') in 0.003895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 197.284688 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph
-  artifactKey: Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph using Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba085f41aef9fa2cfcee209d1af5637b') in 0.004679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 209.945684 seconds.
-  path: Assets/ShaderGianni/Shader/Fresnel.mat
-  artifactKey: Guid(1334a9391475bb64790cf71884f0ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderGianni/Shader/Fresnel.mat using Guid(1334a9391475bb64790cf71884f0ab0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8433e4e3a51f1a823a41cdfef209c461') in 0.925039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ShaderGianni/PostProcess/PP_ColorDepth.mat
-  artifactKey: Guid(ead52e6e549500a45b6dc1a820b0f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderGianni/PostProcess/PP_ColorDepth.mat using Guid(ead52e6e549500a45b6dc1a820b0f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d9ca2be3fc9f114a8d2ad2fc1383fb') in 0.723630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.868128 seconds.
-  path: Assets/ShaderGianni/Shader/CutFresnel.mat
-  artifactKey: Guid(855def1dd694d0446b4a07b38a20ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderGianni/Shader/CutFresnel.mat using Guid(855def1dd694d0446b4a07b38a20ff25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f616b8121ca0f7c0cfb88f24d5d3d7d4') in 0.597469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 129.882392 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph
-  artifactKey: Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph using Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a0927098302ab61c81c3f85bb2ddee') in 0.004100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.555592 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5
+  Time since last request: 8.120239 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio5_CutFresnel
   artifactKey: Guid(f4a992177090d8e43a54ccab2ee35291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5 using Guid(f4a992177090d8e43a54ccab2ee35291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a069c4116d32efe56428484302e73631') in 0.005747 seconds 
+Start importing Assets/EserciziDaSoloShaders/Esercizio5_CutFresnel using Guid(f4a992177090d8e43a54ccab2ee35291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dcd308d818406a60941c6d1cccea96') in 0.005290 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.820424 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5 1
+  Time since last request: 7.067405 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio6_VDispl
   artifactKey: Guid(a844107e3fe2f464a865a5347caa8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5 1 using Guid(a844107e3fe2f464a865a5347caa8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120c23c29904e29fcb44851c677707a1') in 0.005899 seconds 
+Start importing Assets/EserciziDaSoloShaders/Esercizio6_VDispl using Guid(a844107e3fe2f464a865a5347caa8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795be05c1c55bcbc07f84d27e3f9dcbe') in 0.023028 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.938329 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6
-  artifactKey: Guid(a844107e3fe2f464a865a5347caa8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6 using Guid(a844107e3fe2f464a865a5347caa8e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41e9310f36c9f7fada90f43142a82b6') in 0.007065 seconds 
+  Time since last request: 9.022129 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7_VDisplRange
+  artifactKey: Guid(2e3fdaf72b38fdb45933512df47ea31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7_VDisplRange using Guid(2e3fdaf72b38fdb45933512df47ea31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5b3384b40a43e5837e43a40a3fb292') in 0.006076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.709471 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph
-  artifactKey: Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph using Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61e846010eb8c50183dc175b2270e56') in 0.003185 seconds 
+  Time since last request: 19.507505 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio8_VDisplRangeSmooth
+  artifactKey: Guid(d4ed93eefd00db64ea7c83100b22e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio8_VDisplRangeSmooth using Guid(d4ed93eefd00db64ea7c83100b22e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90fa50a78bcefe1c431f5f4080f8ef') in 0.005817 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.990711 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph
-  artifactKey: Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph using Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28887f49c2fe7fb2c5435395dedaad16') in 0.007102 seconds 
+  Time since last request: 1323.588990 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio8_UfoRangeSmooth
+  artifactKey: Guid(d4ed93eefd00db64ea7c83100b22e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio8_UfoRangeSmooth using Guid(d4ed93eefd00db64ea7c83100b22e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8488f0dc765391cfd0a724b2417fa981') in 0.007198 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.583065 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.mat
-  artifactKey: Guid(5fa645c5bcbd4424a801d5eb9735e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.mat using Guid(5fa645c5bcbd4424a801d5eb9735e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2ec422b35d6d22a77da175a084cd1d') in 0.637608 seconds 
+  Time since last request: 5.148942 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7_UfoRange
+  artifactKey: Guid(2e3fdaf72b38fdb45933512df47ea31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7_UfoRange using Guid(2e3fdaf72b38fdb45933512df47ea31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc3f8d6a2802d50e60ae4f209d4b968') in 0.006441 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.731559 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph
-  artifactKey: Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph using Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a6334644cbb3fc839efefbcff9be0a') in 0.003199 seconds 
+  Time since last request: 1322.454407 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph
+  artifactKey: Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph using Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36084ff5f147293d3d45b776b2f1773') in 0.009759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 195.624537 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph
-  artifactKey: Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph using Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16face66578d1643f670d5255392602d') in 0.003888 seconds 
+  Time since last request: 74.803227 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph
+  artifactKey: Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph using Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2afda25b05347621952b5da18e43c8') in 0.003534 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.646742 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.mat
-  artifactKey: Guid(db80227c73446734eb4966d32f68fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio3/UnliteTextureColorTiling.mat using Guid(db80227c73446734eb4966d32f68fc56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75faf49cb435e5a57d78769af1a5e1b3') in 0.616723 seconds 
+  Time since last request: 23.817037 seconds.
+  path: Assets/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph
+  artifactKey: Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph using Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b56c88752b93c3d3bb6b59820b1e3d') in 0.003308 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ShaderGianni/Shader/VDisplacement.mat
-  artifactKey: Guid(60fdd46e997f93948b4f64143a98d71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderGianni/Shader/VDisplacement.mat using Guid(60fdd46e997f93948b4f64143a98d71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd7c08b8e124cf94407b3d263e9b5b5') in 1.881622 seconds 
+  Time since last request: 27.306140 seconds.
+  path: Assets/Esercizi
+  artifactKey: Guid(645ddbd319ed1f94b84db28bb960a8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esercizi using Guid(645ddbd319ed1f94b84db28bb960a8d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6601a81cf6d27707102f260c401bd122') in 0.017363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.865319 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph
-  artifactKey: Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph using Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6ac6caec6f2bddb22229d2cc52c240') in 0.003943 seconds 
+  Time since last request: 11.719755 seconds.
+  path: Assets/ShadeLessons/EserciziPostProcess
+  artifactKey: Guid(1fdc0739c0e95b24c8459388a24c2066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShadeLessons/EserciziPostProcess using Guid(1fdc0739c0e95b24c8459388a24c2066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b529b7c5aaadc264c2b2b24ffcdff0a') in 0.005373 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.372185 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph
-  artifactKey: Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio4/Fresnel.shadergraph using Guid(9614de602264b9f429eae23eaebd3566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c7f67dd9c86dbd752470c789c8872e') in 0.003720 seconds 
+  Time since last request: 2.020394 seconds.
+  path: Assets/ShadeLessons/EserciziShaders
+  artifactKey: Guid(429fb51fcbc4a4d4ca696d0c1254e421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShadeLessons/EserciziShaders using Guid(429fb51fcbc4a4d4ca696d0c1254e421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20df33c0b2b246a75c70a11d718fcd6') in 0.005732 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 225.695503 seconds.
-  path: Assets/ShadeLessons/Shaders/CutFresnel.shadergraph
+  Time since last request: 62.280762 seconds.
+  path: Assets/Esercizi/ShadeLessons/EserciziShaders/CutFresnel.shadergraph
   artifactKey: Guid(ac4c4cdde544271449a9d40764509b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShadeLessons/Shaders/CutFresnel.shadergraph using Guid(ac4c4cdde544271449a9d40764509b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e26dad69f623c8c1ab99431d902ba3b') in 0.003103 seconds 
+Start importing Assets/Esercizi/ShadeLessons/EserciziShaders/CutFresnel.shadergraph using Guid(ac4c4cdde544271449a9d40764509b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310427084abcd6554f7e55c34d16fa57') in 0.005955 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 508.742218 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph
-  artifactKey: Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.shadergraph using Guid(265541fa500c46243900bdca894c1dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4549287fe1f4a399565b94b1a07ae6') in 0.004529 seconds 
+  Time since last request: 15.162654 seconds.
+  path: Assets/Esercizi/ShadeLessons/EserciziShaders/CutFresnel.shadergraph
+  artifactKey: Guid(ac4c4cdde544271449a9d40764509b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esercizi/ShadeLessons/EserciziShaders/CutFresnel.shadergraph using Guid(ac4c4cdde544271449a9d40764509b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbb585c82d9ff595174992922e34741') in 0.002187 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.401969 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel 1.shadergraph
-  artifactKey: Guid(5609721a8b7646643bb01fc842c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel 1.shadergraph using Guid(5609721a8b7646643bb01fc842c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278d18056e12aa41ffb4bb1dcb09a034') in 0.006843 seconds 
+  Time since last request: 137.916120 seconds.
+  path: Assets/Esercizi/ShaderGianni/Shader/c.shadergraph
+  artifactKey: Guid(a3b2d9a010023724e9a03f167fd767e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esercizi/ShaderGianni/Shader/c.shadergraph using Guid(a3b2d9a010023724e9a03f167fd767e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e104c5c9f8ffe8b163d1a9c63f3535fa') in 0.005777 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.746450 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnelSmooth.shadergraph
-  artifactKey: Guid(5609721a8b7646643bb01fc842c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnelSmooth.shadergraph using Guid(5609721a8b7646643bb01fc842c26958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032fc3c8c1747bbe9d864808c7e99bce') in 0.006681 seconds 
+  Time since last request: 11.988446 seconds.
+  path: Assets/Esercizi/ShaderGianni/Shader/VDisplacementInARangeSmooth.shadergraph
+  artifactKey: Guid(a3b2d9a010023724e9a03f167fd767e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esercizi/ShaderGianni/Shader/VDisplacementInARangeSmooth.shadergraph using Guid(a3b2d9a010023724e9a03f167fd767e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158153bb3615c3d702df56bce7ebdf88') in 0.009034 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 66.047157 seconds.
-  path: Assets/ShadeLessons/Shaders/CutFresnelSmooth.shadergraph
-  artifactKey: Guid(208c6b4a4d091f34ebfee7b3616fc819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShadeLessons/Shaders/CutFresnelSmooth.shadergraph using Guid(208c6b4a4d091f34ebfee7b3616fc819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bb967ead9d4303f8846c2451fb6a72a') in 0.007456 seconds 
+  Time since last request: 1207.365121 seconds.
+  path: Assets/Esercizi/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph
+  artifactKey: Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esercizi/EserciziDaSoloShaders/Esercizio7_UfoRange/UfoInARange.shadergraph using Guid(18cd3004cff63cc4d9066631e36a41d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2457cc35d7c1f2892077b1b1a4e87426') in 0.009618 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 241.109005 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.mat
-  artifactKey: Guid(5fa645c5bcbd4424a801d5eb9735e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio5/CutFresnel.mat using Guid(5fa645c5bcbd4424a801d5eb9735e867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650993084131db0ff6d35bca6db66cd5') in 0.553790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 546.724041 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph
-  artifactKey: Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph using Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ff3265fb397ccef38e828cd852ec41') in 0.003939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.592416 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph
-  artifactKey: Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph using Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a5c6180d45bcef7184015bca69b6f2') in 0.003214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.466701 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph
-  artifactKey: Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph using Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02879b56623580fd53203150ee70caff') in 0.005214 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.362145 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph
-  artifactKey: Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.shadergraph using Guid(a2ac0c91c938e7243877fb81a2ec299f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aade3d5764d35367409b23000fffe1d') in 0.005953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.727169 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.mat
-  artifactKey: Guid(e45f672f74157f445843ac0c281f2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.mat using Guid(e45f672f74157f445843ac0c281f2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0c1150868e4789d87858ae9d941bf2') in 0.699574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.433296 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio1/UnlitTexture_2.mat
-  artifactKey: Guid(2851e80cdc5322640a8bbda354166415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio1/UnlitTexture_2.mat using Guid(2851e80cdc5322640a8bbda354166415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd318869ba9d93fe30ce7eb9eb662332') in 0.028312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.146060 seconds.
-  path: Assets/ShaderGianni/Shader/UnlitTexture.mat
-  artifactKey: Guid(ef40960f588810b4bb3ae18e2724e009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderGianni/Shader/UnlitTexture.mat using Guid(ef40960f588810b4bb3ae18e2724e009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8121bd1b0703b59f6840730f688fd2e8') in 0.040322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio1/UnlitTexture.mat
-  artifactKey: Guid(f7d0a7d0e03915444b710c4418daf761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio1/UnlitTexture.mat using Guid(f7d0a7d0e03915444b710c4418daf761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b4c14cb293afbda61dc9915ae3aed2') in 0.014800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 75.993680 seconds.
-  path: Assets/ShaderGianni/Shader/VDisplacement.shadergraph
-  artifactKey: Guid(70f7ab21ae9c56444ab936b577b382b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShaderGianni/Shader/VDisplacement.shadergraph using Guid(70f7ab21ae9c56444ab936b577b382b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0502c1852c13e02c1ceb785336eea41c') in 0.004041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 62.991527 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.mat
-  artifactKey: Guid(e45f672f74157f445843ac0c281f2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio6/VDisplacement.mat using Guid(e45f672f74157f445843ac0c281f2e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3170b4ad1986cb350ff6aa46e29be876') in 0.456480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.086070 seconds.
-  path: Assets/NewEserciziDaSolo/Esercizio2/UnlitPositionView.mat
-  artifactKey: Guid(6e2c6e9636404bd4ca04e85e83e03bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewEserciziDaSolo/Esercizio2/UnlitPositionView.mat using Guid(6e2c6e9636404bd4ca04e85e83e03bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d244711317c74c57ee7f3b3153bd22') in 0.012441 seconds 
+  Time since last request: 424.392238 seconds.
+  path: Assets/Esercizi/ShaderLessons/EserciziShaders/VDisplacementInARange.shadergraph
+  artifactKey: Guid(a8d7786bd5c04244f8847a6807d8e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Esercizi/ShaderLessons/EserciziShaders/VDisplacementInARange.shadergraph using Guid(a8d7786bd5c04244f8847a6807d8e5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59d9813181ef1f3939dbe7cf92f3b65') in 0.006375 seconds 

@@ -45,6 +45,8 @@
      <Compile Include="Assets\ParticleSystem\ClampParticleVelocity.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\ParticleSystem\CharacterMovement.cs" />
+     <None Include="Assets\Esercizi\EserciziCode\Esercizio1\TwoColors.shader" />
+     <None Include="Assets\Esercizi\EserciziCode\Esercizio1\Transition.shader" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Unity\2021.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
