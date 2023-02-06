@@ -52,15 +52,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Center: 0.562
+    - _Center: 0.5
     - _ECG_LineWidth: 0.621
     - _ECG_variation: 0.74
+    - _Extension: 0.3
+    - _Float: 0.12
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Speed: 0.5
     - _Thickness: 0.5
     - _Tiling: 0
-    - _Width: 0.05
+    - _Width: 0.01
     - _speed: 0.52
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0.17796612, g: 1, b: 0, a: 1}
+    - _ColorBackground: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
