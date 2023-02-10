@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LavaWave
-  m_Shader: {fileID: -6465566751694194690, guid: 3a45c4acab30af94998a86a216e0b316,
+  m_Name: UnlitPositionObject_DaSolo
+  m_Shader: {fileID: -6465566751694194690, guid: 088fd8154a7012345b2feb7c06fdba66,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,23 +35,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 1.84
-    - _AmplitudeWave: 0.14
-    - _Distance: 0.677
-    - _FrequencyWave: 3
-    - _MidValue: 0.68
-    - _PeakNoiseStrenth: 0.9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _TimeSpeed: 1
-    m_Colors:
-    - _Center: {r: 0, g: 0, b: 0, a: 0}
-    - _CenterWave: {r: 0, g: 0, b: 0, a: 0}
-    - _ColorHigh: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorLow: {r: 0, g: 0, b: 0, a: 1}
-    - _ColorMid: {r: 1, g: 0, b: 0, a: 1}
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &8470274321647056433
+--- !u!114 &6942680691243282132
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

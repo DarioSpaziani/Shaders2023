@@ -41,7 +41,7 @@ Shader "Unlit/VDisplacementHLSL"
                 //v.vertex è la LOCAL vertex position
                 v2f o;
 
-                float noiseValue = tex2Dlod(_NoiseTex, float4(v.uv,0,0)); //Utilizzo v.uv e non i.uv perchè qui si chiamano così
+                float noiseValue = tex2Dlod(_NoiseTex, float4(v.uv + (0, _Time.x),0,0)); //Utilizzo v.uv e non i.uv perchè qui si chiamano così
                 float4 offset = v.normal * noiseValue * _Intensity;
 
                 offset *= pow(sin(_Time.y * _BlinkTime), 6);
