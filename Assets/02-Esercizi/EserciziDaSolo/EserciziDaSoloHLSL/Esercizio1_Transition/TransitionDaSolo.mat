@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TransitionDaSolo
+  m_Shader: {fileID: 4800000, guid: f2ef70dd19a82f34690e2797223495f8, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 4cc4865b729aac14696c1ab5433919ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 237eb0b26daaed24f90d634ee37034b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CutLevel: 0.3
+    - _TransitionWidth: 0.2
+    m_Colors:
+    - _PrimaryColor: {r: 0.01585974, g: 0.028301895, b: 0.016874462, a: 1}
+    - _SecondaryColor: {r: 1, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

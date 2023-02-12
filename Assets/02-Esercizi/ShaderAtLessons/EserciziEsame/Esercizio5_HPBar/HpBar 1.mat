@@ -26,9 +26,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _LowHpValue: 0.2
+    - _LowHpValue: 0.29
     - _MidHpValue: 0.45
-    - _Value: 1
+    - _Value: 0.78
     m_Colors:
     - _HighHpColor: {r: 0.036265016, g: 1, b: 0, a: 1}
     - _LowHpColor: {r: 1, g: 0, b: 0, a: 1}

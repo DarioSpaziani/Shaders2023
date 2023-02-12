@@ -2,9 +2,9 @@ Shader "Unlit/TwoColors"
 {
     Properties
     {
-        _ColorA("Color A", Color) = (1,1,1,1)
-        _ColorB("Color B", Color) = (1,1,1,1)
-        _CutLevel("Cut Level", Range(0,1)) = 0.5
+        _ColorA ("Color A", Color) = (1,1,1,1)
+        _ColorB ("Color B", Color) = (1,1,1,1)
+        _ColorC ("Color C", Color) = (1,1,1,1)
     }
     SubShader
     {
@@ -17,8 +17,6 @@ Shader "Unlit/TwoColors"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
-            #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
 
@@ -41,7 +39,7 @@ Shader "Unlit/TwoColors"
 
             float4 _ColorA;
             float4 _ColorB;
-            float _CutLevel;
+            float4 _ColorC;
 
             v2f vert (appdata v)
             {
@@ -53,7 +51,19 @@ Shader "Unlit/TwoColors"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                return 1;
+                float cutLevel = (_SinTime.w + 1) / 2;
+
+                //i.uv.y => Da 0 a 1
+                if(i.uv.y < cutLevel) //Da 0 a cutLevel  =>  Da _ColorA a _ColorC
+                {
+                    float botRemapValue = remap_float(i.uv.y, float2(0, cutLevel), float2(0, 1));
+                    return lerp(_ColorA, _ColorC, botRemapValue);
+                }
+                else //Da cutLevel a 1  =>  Da _ColorC a _ColorB
+                {
+                    float topRemapValue = remap_float(i.uv.y, float2(cutLevel, 1), float2(0, 1));
+                    return lerp(_ColorC, _ColorB, topRemapValue);
+                }
             }
             ENDCG
         }

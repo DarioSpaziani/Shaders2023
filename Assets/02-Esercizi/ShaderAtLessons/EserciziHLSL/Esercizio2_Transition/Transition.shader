@@ -28,11 +28,6 @@ Shader "Unlit/Transition"
             {
                 return OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
             }
-
-            float4 remap_float4(float4 In, float2 InMinMax, float2 OutMinMax)
-            {
-                return OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
-            } 
             
             struct appdata
             {

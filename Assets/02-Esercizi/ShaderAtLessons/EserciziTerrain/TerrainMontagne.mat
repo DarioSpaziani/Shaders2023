@@ -42,13 +42,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Gloss: 0.5
+    - _Gloss: 2.58
     - _GrassLevel: 2.3
-    - _RockLevel: 1.68
-    - _SnowLevel: 1
-    - _SpecularPower: 0.5
-    - _TransitionWidth: 5
-    - _WaterLevel: -0.5
+    - _RockLevel: 3.88
+    - _SnowLevel: 2.84
+    - _SpecularPower: 8.2
+    - _TransitionWidth: 4.9
+    - _WaterLevel: -1.85
     m_Colors:
     - _GrassColor: {r: 0.5535347, g: 1, b: 0.37169808, a: 1}
     - _RockColor: {r: 0.38679248, g: 0.30810532, b: 0.28972948, a: 1}
