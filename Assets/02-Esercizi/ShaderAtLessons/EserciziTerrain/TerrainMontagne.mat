@@ -7,9 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Grass
-  m_Shader: {fileID: -6465566751694194690, guid: cba26be05abd6604393430fdfe138dcf,
-    type: 3}
+  m_Name: TerrainMontagne
+  m_Shader: {fileID: 4800000, guid: 4f8bc6fe8f0f6684186b2772e80b1a05, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -21,44 +20,38 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NoiseMap:
-        m_Texture: {fileID: 2800000, guid: 4cc4865b729aac14696c1ab5433919ef, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
+    - _GrassTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
+    - _RockTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Mix: 3
-    - _PowValue: 3
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _Scale: 10
-    - _Strenght: 0.5
-    - _WindSpeed: 2
+    - _Gloss: 0.5
+    - _GrassLevel: 2.3
+    - _RockLevel: 1.68
+    - _SnowLevel: 1
+    - _SpecularPower: 0.5
+    - _TransitionWidth: 5
+    - _WaterLevel: -0.5
     m_Colors:
-    - _ModelYRange: {r: 0, g: 1, b: 0, a: 0}
+    - _GrassColor: {r: 0.5535347, g: 1, b: 0.37169808, a: 1}
+    - _RockColor: {r: 0.38679248, g: 0.30810532, b: 0.28972948, a: 1}
+    - _SnowColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterColor: {r: 0, g: 0.9154639, b: 1, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6999468294649859209
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 5

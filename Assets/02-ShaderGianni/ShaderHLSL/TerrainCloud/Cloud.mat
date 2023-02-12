@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Grass
-  m_Shader: {fileID: -6465566751694194690, guid: cba26be05abd6604393430fdfe138dcf,
+  m_Name: Cloud
+  m_Shader: {fileID: -6465566751694194690, guid: b00a90c104d34bd4da5d8c3ee9324d8b,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,8 +21,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NoiseMap:
-        m_Texture: {fileID: 2800000, guid: 4cc4865b729aac14696c1ab5433919ef, type: 3}
+    - _SampleTexture2D_8349e9d71dc447a09a3fc80e9b85946b_Texture_1:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,17 +39,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Mix: 3
-    - _PowValue: 3
+    - _Lifetime: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scale: 10
-    - _Strenght: 0.5
-    - _WindSpeed: 2
-    m_Colors:
-    - _ModelYRange: {r: 0, g: 1, b: 0, a: 0}
+    - _StartTime: 0
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &6999468294649859209
+--- !u!114 &2255952809658223543
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
