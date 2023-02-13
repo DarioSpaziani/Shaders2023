@@ -40,6 +40,11 @@ Shader "Unlit/TransitionDaSolo"
             float _CutLevel;
             float _TransitionWidth;
 
+            float remap_float(float In, float2 InMinMax, float2 OutMinMax)
+            {
+                return OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
+            }
+
             v2f vert (appdata v)
             {
                 v2f o;
@@ -50,9 +55,15 @@ Shader "Unlit/TransitionDaSolo"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                // sample the texture
-                fixed4 col = tex2D(_MaskTex, i.uv);
-                return col;
+                float maskValue = tex2D(_MaskTex, i.uv).x;
+                float2 inRange = float2(_CutLevel, _CutLevel + _TransitionWidth);
+
+                maskValue= remap_float(maskValue, inRange, float2(0,1));
+                maskValue = saturate(maskValue);
+
+                return lerp(_PrimaryColor, _SecondaryColor, maskValue);
+                    
+                
             }
             ENDCG
         }

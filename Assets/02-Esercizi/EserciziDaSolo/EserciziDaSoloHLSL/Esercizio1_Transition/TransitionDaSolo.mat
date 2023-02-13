@@ -30,8 +30,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CutLevel: 0.3
-    - _TransitionWidth: 0.2
+    - _CutLevel: 0.38
+    - _TransitionWidth: 0
     m_Colors:
     - _PrimaryColor: {r: 0.01585974, g: 0.028301895, b: 0.016874462, a: 1}
     - _SecondaryColor: {r: 1, g: 0, b: 0, a: 1}

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3286070199617539352
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PP_Scanner
+  m_Shader: {fileID: -6465566751694194690, guid: c3660ac1ef8aff04ca5e5214ae86383b,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d297de24f4c4d15419d21adbf32c0366, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_37db5bed1b6e46968051efc7eb61e454_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Automatic: 1
+    - _FadeRange: 0.63
+    - _FarDistance: 10000
+    - _NearDistance: 0.03
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _ScannerDistance: 4.39
+    - _ScannerFadeWidth: 55.12
+    - _ScannerMaxDepth: 0
+    - _ScannerMaxDistance: 50
+    - _ScannerSpeed: 2.8
+    - _ScannerWidth: 0.2
+    m_Colors:
+    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorBase: {r: 0.96787477, g: 1, b: 0, a: 1}
+    - _ColorDepth: {r: 1, g: 1, b: 1, a: 1}
+    - _ScannerColor: {r: 0.103072025, g: 1, b: 0, a: 1}
+    - _ScannerColor_1: {r: 0.35885832, g: 1, b: 0, a: 1}
+    - _ScannerFadeColor: {r: 0.8867924, g: 0.47548914, b: 0.36308292, a: 1}
+  m_BuildTextureStacks: []

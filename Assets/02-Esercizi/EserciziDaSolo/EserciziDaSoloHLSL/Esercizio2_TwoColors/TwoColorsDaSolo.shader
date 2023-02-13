@@ -58,14 +58,14 @@ Shader "Unlit/TwoColorsDaSolo"
                 
                 if(i.uv.y < _CutLevel)
                 {
-                    float botRemapValue = remap_float(i.uv.y, float2(0,_CutLevel), float2(0,1));
+                    float botRemapValue = remap_float(i.uv.y, float2(0,_CutLevel), float2(-0.5,0.5));
                     saturate(_ColorA);
                     return lerp(_ColorA,_CutLevel, botRemapValue);
                     
                 }
                 else
                 {
-                    float botRemapValue = remap_float(i.uv.y, float2(0, _CutLevel), float2(0, 1));
+                    float botRemapValue = remap_float(i.uv.y, float2(0, _CutLevel), float2(0.5, 0.5));
                     saturate(_ColorB);
                     return lerp(_CutLevel,_ColorB, botRemapValue);
                 }

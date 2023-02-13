@@ -6,7 +6,6 @@ Shader "Unlit/TwoColorsDaSolo2"
         _ColorA("Color A", color) = (1,1,0,1)
         _ColorB("Color B", color) = (0,1,1,1)
         _ColorC("Color C", color) = (0,0,1,1)
-        _CutLevel("Cut Level", Range(0,1)) = 0.5
     }
     SubShader
     {
