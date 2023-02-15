@@ -35,14 +35,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CutLevel: 0.562
+    - _CutLevel: 0.5
     - _FadeRange: 0.3
-    - _IntensityFresnel: 0.503
-    - _PowerFresnel: 0.601
+    - _IntensityFresnel: 1
+    - _PowerFresnel: 0.562
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _ColorFresnel: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorFresnel: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6742958151049751337
 MonoBehaviour:

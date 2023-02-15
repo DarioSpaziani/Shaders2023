@@ -37,7 +37,10 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _Range: 16.89
+    m_Colors:
+    - _FarColor: {r: 1, g: 0, b: 0, a: 1}
+    - _NearColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6525524994902030950
 MonoBehaviour:

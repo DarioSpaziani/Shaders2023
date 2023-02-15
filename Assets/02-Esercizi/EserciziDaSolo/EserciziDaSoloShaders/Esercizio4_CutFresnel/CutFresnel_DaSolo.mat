@@ -36,9 +36,9 @@ Material:
     m_Ints: []
     m_Floats:
     - _CutFresnel: 0
-    - _CutLevel: 0.47
+    - _CutLevel: 0.5
     - _IntensityFresnel: 1
-    - _PowerFresnel: 0.581
+    - _PowerFresnel: 0.542
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:

@@ -65,11 +65,9 @@ Shader "Unlit/TwoColorsDaSolo2"
                 }
                 else
                 {
-                    float botRemapValue = remap_float(i.uv.y, float2(0, cutLevel), float2(0, 1));
-                    return lerp(_ColorC,_ColorB, botRemapValue);
+                    float topmapValue = remap_float(i.uv.y, float2(cutLevel, 1), float2(0, 1));
+                    return lerp(_ColorC,_ColorB, topmapValue);
                 }
-
-                
                 
             }
             ENDCG

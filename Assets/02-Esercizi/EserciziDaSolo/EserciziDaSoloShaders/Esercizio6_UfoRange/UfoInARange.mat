@@ -42,8 +42,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
-    - _Strength: 2.29
-    - _Width: 0.1
+    - _Strength: 2
+    - _Width: 0.05
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
