@@ -61,6 +61,7 @@ Shader "Unlit/Transition_Gianni"
             {
                 float maskValue = tex2D(_MaskTex, i.uv).x;
 
+                //Come calcolare il tempo sugli shaders
                 //_Time	float4 (t/20, t, t*2, t*3)
                 //_SinTime float4 (t/8, t/4, t/2, t)
                 //_CosTime float4 (t/8, t/4, t/2, t)

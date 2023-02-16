@@ -40,11 +40,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Mix: 3
-    - _PowValue: 3
+    - _PowValue: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Scale: 10
-    - _Strenght: 0.5
+    - _Strenght: 4
     - _WindSpeed: 2
     m_Colors:
     - _ModelYRange: {r: 0, g: 1, b: 0, a: 0}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9dea88b8bfbd93941b433ee338a4192d, type: 3}
-  m_Name: Scanner
+  m_Name: Blit
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Active: 0
   settings:
     Event: 1000
-    blitMaterial: {fileID: 2100000, guid: ead52e6e549500a45b6dc1a820b0f7e1, type: 2}
+    blitMaterial: {fileID: 0}
     blitMaterialPassIndex: 0
     setInverseViewMatrix: 0
     requireDepthNormals: 0

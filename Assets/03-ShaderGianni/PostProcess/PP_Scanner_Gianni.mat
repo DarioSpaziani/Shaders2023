@@ -56,11 +56,11 @@ Material:
     - _IsAutomatic: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ScannerDistance: 2
-    - _ScannerFadeWidth: 10
-    - _ScannerMaxDistance: 106.74
+    - _ScannerDistance: 50
+    - _ScannerFadeWidth: 50
+    - _ScannerMaxDistance: 50
     - _ScannerSpeed: 5
-    - _ScannerStartTimestamp: 68.06545
+    - _ScannerStartTimestamp: 0
     - _ScannerWidth: 1
     - _XPos: 2.11
     m_Colors:

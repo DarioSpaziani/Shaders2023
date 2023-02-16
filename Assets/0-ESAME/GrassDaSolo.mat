@@ -34,6 +34,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _NoiseMap:
+        m_Texture: {fileID: 2800000, guid: 8c9d46e4b30423342989961b7dedc9ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2DLOD_30b5a1ff80344390a2e99b804b8bc3fa_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8c9d46e4b30423342989961b7dedc9ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -48,13 +56,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Mix: 10
     - _ModelYRange: 2.69
-    - _NoiseValue: 0
-    - _PowValue: 3.32
+    - _NoiseValue: 0.1
+    - _PowValue: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Strength: 4.73
-    - _WindSpeed: 0
+    - _Strength: 2
+    - _WindSpeed: 2
     m_Colors:
-    - _ModelYRange: {r: 1, g: 1, b: 0, a: 0}
+    - _ModelYRange: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

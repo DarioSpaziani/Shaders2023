@@ -1,4 +1,4 @@
-Shader "Unlit/BlackAndWhite"
+Shader "Unlit/B&W"
 {
     Properties
     {
@@ -25,7 +25,7 @@ Shader "Unlit/BlackAndWhite"
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
             };
-
+            
             struct v2f
             {
                 float2 uv : TEXCOORD0;
@@ -48,17 +48,16 @@ Shader "Unlit/BlackAndWhite"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed4 col = tex2D(_MainTex, i.uv);
-                float cutLevel = (_SinTime.w + 1 )/2;
-                if(i.uv.x < cutLevel - _LineThickness)
+                float cutLevel = 0.5;
+                if(i.uv.x < cutLevel)
                 {
                     float mid = col.r * 0.2126f + col.g * 0.7152f + col.b * 0.0722f;
                     return col = mid;
                 }
-                if(i.uv.x > cutLevel + _LineThickness)
+                if(i.uv.x > cutLevel)
                 {
                     return col;
                 }
-                
                 return _LineColor;
             }
             ENDCG
