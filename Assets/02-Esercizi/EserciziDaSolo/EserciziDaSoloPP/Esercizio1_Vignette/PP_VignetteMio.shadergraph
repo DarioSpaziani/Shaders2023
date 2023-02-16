@@ -79,12 +79,12 @@
             "m_Id": "af49a03618e04482a662930aaaa8cd0a"
         }
     ],
-    "m_GroupDatas": [
+    "m_GroupDatas": [],
+    "m_StickyNoteDatas": [
         {
-            "m_Id": "fbf9396ba08c475f85f74d683d2bf1af"
+            "m_Id": "fc658551168243818f40bc9c7879e7f8"
         }
     ],
-    "m_StickyNoteDatas": [],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -285,8 +285,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": -0.000013589014997705817,
-            "y": -19.20002555847168
+            "x": -111.99991607666016,
+            "y": -232.0000457763672
         },
         "m_Blocks": [
             {
@@ -302,8 +302,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": -111.99991607666016,
+            "y": -37.600013732910159
         },
         "m_Blocks": [
             {
@@ -2129,12 +2129,21 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.GroupData",
-    "m_ObjectId": "fbf9396ba08c475f85f74d683d2bf1af",
-    "m_Title": "New Group",
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "fc658551168243818f40bc9c7879e7f8",
+    "m_Title": "Visuale della camera",
+    "m_Content": "La mainTex viene usata come la visuale della camera",
+    "m_TextSize": 0,
+    "m_Theme": 0,
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "serializedVersion": "2",
+        "x": -949.5999755859375,
+        "y": -475.20001220703127,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
