@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2189436927304824071
+--- !u!114 &-5951111195866994607
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,12 +20,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterWaveDaSolo
-  m_Shader: {fileID: -6465566751694194690, guid: eb919592f66298e4f9f22255b1523b92,
+  m_Name: WaterGraph
+  m_Shader: {fileID: -6465566751694194690, guid: 499ce43772f8fbc42accd7aa54e450b4,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -34,7 +34,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _WaterTex:
+    - _WaterTexture:
         m_Texture: {fileID: 2800000, guid: 7b41f3f5249b75e43883acbeff3f5523, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -52,16 +52,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Dir: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _TimeSpeed: 1
-    - _WaterSpeedX: 0.01
-    - _WaterSpeedY: 0.01
-    - _WavesFrequency: 23
-    - _WavesHeight: 1
+    - _TexSpeedMul: 1.77
+    - _WaterSpeedX: 0.1
+    - _WaterSpeedZ: 0.25
+    - _WavesFrequency: 0.67
+    - _WavesHeight: 0.54
     m_Colors:
-    - _Center: {r: 0, g: 200, b: 0, a: 0}
-    - _Dir: {r: 0, g: 0, b: 0, a: 0}
-    - _WaterTint: {r: 0, g: 1, b: 0.7080879, a: 1}
+    - _Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+    - _WaterTint: {r: 0.32373616, g: 0.9150943, b: 0.9094772, a: 1}
   m_BuildTextureStacks: []

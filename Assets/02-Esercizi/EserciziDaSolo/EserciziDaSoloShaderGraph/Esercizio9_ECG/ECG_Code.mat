@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PP_ColorDepth_Mio
-  m_Shader: {fileID: -6465566751694194690, guid: df1eb084e5aec4046a70f20685ee41fa,
+  m_Name: ECG_Code
+  m_Shader: {fileID: -6465566751694194690, guid: c52a049017544634ab65e6f3894b4414,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,6 +21,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _ECG_Tex:
+        m_Texture: {fileID: 2800000, guid: 6894c9fc760aa29408fe04b3f2b5d173, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -35,14 +39,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Amplitude: 0.45
+    - _LineWidth: 0.04
+    - _MidValue: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Range: 16.89
+    - _Speed: 0.5
     m_Colors:
-    - _FarColor: {r: 0, g: 0, b: 0, a: 1}
-    - _NearColor: {r: 1, g: 0, b: 0, a: 1}
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 0.37085348, g: 0.8679245, b: 0.23253822, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6525524994902030950
+--- !u!114 &7952812883767379091
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

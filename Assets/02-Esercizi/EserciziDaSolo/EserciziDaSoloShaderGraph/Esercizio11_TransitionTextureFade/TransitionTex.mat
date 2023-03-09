@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ECG_Code
-  m_Shader: {fileID: -6465566751694194690, guid: c52a049017544634ab65e6f3894b4414,
+  m_Name: TransitionTex
+  m_Shader: {fileID: -6465566751694194690, guid: 4882f9a7a01960a4285045964614d403,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,8 +21,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _ECG_Tex:
-        m_Texture: {fileID: 2800000, guid: 6894c9fc760aa29408fe04b3f2b5d173, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7b41f3f5249b75e43883acbeff3f5523, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 37357c14b10ef4141923dda708d258b4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,17 +43,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Amplitude: 0.45
-    - _LineWidth: 0.04
-    - _MidValue: 0.5
+    - _CutLevel: 0
+    - _FadeValue: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Speed: 0.2
+    - _TransitionWidth: 1
     m_Colors:
-    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LineColor: {r: 0.38933498, g: 0.8396226, b: 0.26456028, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7952812883767379091
+--- !u!114 &9144890234111818347
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
